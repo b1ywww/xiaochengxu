@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/a/a",
+    "pages/index/index",
+    "pages/page2/page2",
+    "pages/mainpage1/mainpage1",
+    "pages/mainpage2/mainpage2",
+    "pages/mainpage3/mainpage3",
+    "pages/测试页/测试页"
+  ],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "书信博物馆",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#F8F8FF",
+    "list": [
+      {
+        "pagePath": "pages/mainpage1/mainpage1",
+        "text": "信息",
+        "iconPath": "images/letter-black.png",
+        "selectedIconPath": "images/letter-pink.png"
+      },
+      {
+        "pagePath": "pages/mainpage2/mainpage2",
+        "text": "写信",
+        "iconPath": "images/write-black.png",
+        "selectedIconPath": "images/write-pink.png"
+      },
+      {
+        "pagePath": "pages/mainpage3/mainpage3",
+        "text": "我的",
+        "iconPath": "images/me-black.png",
+        "selectedIconPath": "images/me-pink.png"
+      },
+      {
+        "pagePath": "pages/测试页/测试页",
+        "text": "测试",
+        "iconPath": "images/faxian1.png",
+        "selectedIconPath": "images/faxian2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

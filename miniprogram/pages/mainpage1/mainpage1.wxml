@@ -1,0 +1,43 @@
+<!--miniprogram/pages/mainpage1/mainpage1.wxml-->
+
+<view class="big-content">
+<view class="word">
+  <view style='width:100rpx; display:inline-block;height:40rpx;'>
+  <image src='../../images/问号.png' style='display:inline;' mode="aspectFit"></image></view> 
+  <input placeholder="请输入关键词" auto-focus/>
+  </view>
+  <button style='width:180rpx;height:55rpx;padding: 0;' class='btn2' bindtap='Click'>搜索 </button>
+</view>
+
+
+
+<view class="big-content">
+  <button style='width:330rpx;height:230rpx;padding: 0;'class='btn1' bindtap='Click'>
+    <image class='btnImg' src='../../images/鲁县.jpg'  ></image>
+ </button>
+ <button style='width:330rpx;height:230rpx;padding: 0;'class='btn1' bindtap='Click'>
+    <image class='btnImg' src='../../images/吐槽.jpg'  ></image>
+ </button>
+</view>
+
+
+<view class='smallspace'>
+</view>
+
+
+<view class="view-contain-ti">
+    <text class="text-ti">文物信息</text>
+    <input class="input1"></input>
+</view>
+
+<view class="view-contain-ti">
+    <text class="text-ti">日常吐槽</text>
+    <input class="input1"></input>
+</view>
+
+<view class="view-contain-ti">
+    <text class="text-ti">文物信息</text>
+    <input class="input1"></input>
+</view>
+
+<text>设挂</text>

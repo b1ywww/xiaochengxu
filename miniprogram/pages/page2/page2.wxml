@@ -1,0 +1,51 @@
+<view class='title'>
+  <text class='title'>注册账号</text>
+</view>
+
+<view class='small-space'>
+</view>
+
+<view class="denglu">
+  <view class='small-space'>
+</view>
+
+<view class="word">
+<input placeholder="姓名" auto-focus/>
+</view>
+<view class='small-space'>
+</view>
+
+<view class="word">
+<input placeholder="性别" auto-focus/>
+</view>
+<view class='small-space'>
+</view>
+
+<view class="word">
+<input placeholder="手机号" type="number" maxlength="11" auto-focus/>
+</view>
+<view class='small-space'>
+</view>
+
+<view class="word">
+<input placeholder="所在高校" auto-focus/>
+</view>
+<view class='small-space'>
+</view>
+
+<view class="word">
+<input placeholder="所在学院" auto-focus/>
+</view>
+<view class='small-space'>
+</view>
+
+<view class="word">
+<input placeholder="专业班级" auto-focus/>
+</view>
+
+</view>
+<button class='btn1'  bindtap="Click" >
+    <image class='btnImg' src='../../images/wx.png'  ></image>
+    <view>确定</view>
+ </button>
+

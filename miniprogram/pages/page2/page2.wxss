@@ -1,0 +1,81 @@
+/* miniprogram/pages/page2/page2.wxss */
+
+.title{
+  font-size: 45rpx;
+  font-weight: bold;
+  line-height: 90rpx;
+  text-align: center;
+  margin-top: 50rpx;
+  color:rgb(17, 17, 17);
+}
+
+.denglu {
+  background-size: 400vw 100vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+.word {
+  width: 500rpx;
+  height:80rpx;
+  margin-top: 20rpx;
+ /* background-color: rgb(217, 243, 243);*/
+ line-height: normal;
+ border: 1px solid #450f80;
+  color: rgb(14, 13, 13);
+  border-radius: 98rpx;/*修改圆角*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .word::after /*让圆角更加的圆*/
+ {
+  border-radius: 98rpx;
+}
+
+ .small-space{
+  height: 20rpx;
+  margin-top: 0rpx;
+  padding: 0px;
+  outline: none;
+ }
+ .page2-moto2-container {
+  line-height: normal;
+  border: 1px solid #450f80;
+  width: 200rpx;
+  height: 100rpx;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20rpx;
+  padding: 0px;
+  outline: none;
+ }
+
+ .btn1 {
+  margin-top: 100rpx;
+  background-color: rgb(117, 191, 224);
+  color:gray;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.btnImg {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.btn1::after {
+  border: 0; 
+}
+ 

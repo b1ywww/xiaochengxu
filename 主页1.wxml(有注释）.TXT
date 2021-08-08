@@ -1,0 +1,40 @@
+<!--miniprogram/pages/mainpage1/mainpage1.wxml-->
+
+<view class="big-content">//要让两个组件在同一行中，需要用一个大框框框住
+<view class="word">//紫色框
+  <view style='width:100rpx; display:inline-block;height:40rpx;'>//调节紫色框的大小，在wxss中调节不管用，不知道为什么
+  <image src='../../images/问号.png' style='display:inline;' mode="aspectFit"></image></view> //插入搜索图片
+  <input placeholder="请输入关键词" auto-focus/>
+  </view>
+  <button style='width:180rpx;height:55rpx;padding: 0;' class='btn2' bindtap='Click'>搜索 </button>//把搜索按钮放在搜索框的后面
+</view>//将搜索框和按钮包起来
+
+
+
+<view class="big-content">//同上
+  <button style='width:330rpx;height:230rpx;padding: 0;'class='btn1' bindtap='Click'>//调节按钮的大小，并把图片放入按钮
+    <image class='btnImg' src='../../images/鲁县.jpg'  ></image>
+ </button>
+ <button style='width:330rpx;height:230rpx;padding: 0;'class='btn1' bindtap='Click'>//同上
+    <image class='btnImg' src='../../images/吐槽.jpg'  ></image>
+ </button>
+</view>
+
+
+<view class='smallspace'>//放置一个小空间，把上面的东西和下面的评论分开
+</view>
+
+<view class="view-contain-ti">//做一个大框
+    <text class="text-ti">文物信息</text>//把文字放在框上，其实是重叠在框上
+    <input class="input1"></input>//输入框
+</view>
+
+<view class="view-contain-ti">//同上S
+    <text class="text-ti">日常吐槽</text>
+    <input class="input1"></input>
+</view>
+
+<view class="view-contain-ti">
+    <text class="text-ti">文物信息</text>
+    <input class="input1"></input>
+</view>

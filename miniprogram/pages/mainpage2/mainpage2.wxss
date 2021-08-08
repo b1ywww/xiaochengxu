@@ -1,0 +1,25 @@
+/* pages/mainpage2/mainpage2.wxss */
+.view-contain-ti {
+    display: flex;
+    margin-top: 100rpx;
+    width: 700rpx;
+    height: 75px;
+    margin: 10px;
+    border: 1px solid #450f80;
+    border-radius: 10rpx;
+    background-color:white;
+  }
+  
+  .text-ti {
+    position: absolute;
+    font-size: 12px;
+    background: white;
+    margin: -10px 0 0 10px;
+    padding: 0 5px;
+    color: rgb(144, 147, 167);
+  }
+  
+  .input1
+   {
+    margin:auto 10px;
+  }
